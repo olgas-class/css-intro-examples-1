@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* # = id */
+#main-title {
+    color: #0000ff;
+}
+
+/* Selettore del tag -> mi selezione tutti i p nella pagina */
+p {
+    color: rgba(0, 128, 0, 1);
+}
+
+/* Seleziona tutti gli elementi con class="red-text" */
+.red-text {
+    color: red;
+}
+
+.big-text {
+    font-size: 24px;
+}
+
+/* Inner-text nel yellow deve essere di colore viola  */
+/* Inner-text nel pink deve essere di colore marrone */
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellow .inner-text {
+    color: violet;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.pink .inner-text {
+    color: brown;
+}
+
+/* Width e height */
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+}
+
+.width-50 {
+    width: 50%;
+    height: 80px;
+    background-color: green;
+}
+
+.rectangle-image {
+    width: 150px;
+    height: 100px;
+}
+
+/* Border */
+.border {
+    /* border-width: 5px;
+    border-color: blue;
+    border-style: solid; */
+    /* Shorthand */
+    border: 5px solid blue;
+    border-bottom-color: orangered;
+    border-left-style: dotted;
+}
+
+/* Proprietà di testo */
+.my-text {
+    text-align: center;  
+}
+
+.error {
+    text-decoration: line-through;
+}
+
+/* Background image */
+
+.box {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url("../img/cat.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    /* background-size: 50%; */
+    background-size: contain;
+}
